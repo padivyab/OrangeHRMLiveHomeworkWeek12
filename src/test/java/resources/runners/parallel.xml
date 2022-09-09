@@ -4,19 +4,25 @@
     <test name="Chrome Test" >
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="com.nopcommerce.testsuite.LoginTestParallel"></class>
+            <class name="com.orangehrmlive.demo.testsuite.GrouppingLoginTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.LoginTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.UsersTest"></class>
         </classes>
     </test>
     <test name="FireFox Test" >
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="com.nopcommerce.testsuite.LoginTestParallel"></class>
+            <class name="com.orangehrmlive.demo.testsuite.GrouppingLoginTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.LoginTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.UsersTest"></class>
         </classes>
     </test>
     <test name="Edge Test" >
         <parameter name="browser" value="ie"></parameter>
         <classes>
-            <class name="com.nopcommerce.testsuite.LoginTestParallel"></class>
+            <class name="com.orangehrmlive.demo.testsuite.GrouppingLoginTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.LoginTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.UsersTest"></class>
         </classes>
     </test>
 </suite>

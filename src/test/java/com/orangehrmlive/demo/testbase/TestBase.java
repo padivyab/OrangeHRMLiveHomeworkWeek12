@@ -9,7 +9,7 @@ public class TestBase extends Utility {
 
     String browser = PropertyReader.getInstance().getProperty("browser");
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp(){
         selectBrowser(browser);
     }

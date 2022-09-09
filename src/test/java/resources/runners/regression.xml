@@ -3,7 +3,7 @@
 <suite name="sanitysuite" verbose="1">
     <groups>
         <run>
-            <include name="sanity"></include>
+            <include name="regression"></include>
         </run>
     </groups>
     <test name="sanity suite Test">
